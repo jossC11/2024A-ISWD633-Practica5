@@ -34,18 +34,25 @@ Para ejecutar en modo "detached" (en segundo plano) se agrega la opción -d:
 ```
 docker compose up -d
 ```
+![image](https://github.com/jossC11/2024A-ISWD633-Practica5/assets/94476123/f47420ba-e021-48f8-ba6b-680e88800395)
+
+![image](https://github.com/jossC11/2024A-ISWD633-Practica5/assets/94476123/86eb26ca-d49f-4393-8505-467cb4d68969)
 
 ### Ejecutar Docker compose para servicios que no se crearon correctamente
 Si algún servicio no se creó correctamente se puede usar
 ```
-docker compose up -d <nombre servicio>
+docker compose up -d mysql-service
+docker compose up -d wordpress-service
+
 ```
+![image](https://github.com/jossC11/2024A-ISWD633-Practica5/assets/94476123/bba6aa19-5bc1-4209-b1f8-bc04ffd989c6)
+
 
 ### Listar contenedores en ejecución que se crearon por docker compose
 ```
 docker compose ps
 ```
-### COMPLETAR CON UNA CAPTURA DE PANTALLA DEL LISTADO DE LOS CONTENEDORES EN EJECUCIÓN
+![image](https://github.com/jossC11/2024A-ISWD633-Practica5/assets/94476123/1b3252f2-5fc2-4dc1-9de7-4a59153f0000)
 
 ### Detener y eliminar los contenedores definidos en el archivo
 ```
